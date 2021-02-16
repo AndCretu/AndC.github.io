@@ -3,6 +3,21 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2020 Froala Labs
  */
+ img.bg {
+   min-height: 100%;
+   min-width: 1024px;
+   width: 100%;
+   height: auto;
+   position: fixed;
+   left: 0;
+ }
+
+ @media screen and (max-width: 1024px) {
+   img.bg {
+     left: 50%;
+     margin-left: -512px;
+   }
+ }
 
 .fr-clearfix::after {
   clear: both;
