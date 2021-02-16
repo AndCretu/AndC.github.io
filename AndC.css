@@ -2,7 +2,21 @@
   background-image: url("images/f42a85705dcb548ce6d26dc657630dc72b03d7d0.jpg");
   background-position: 50% 50%;
 }
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  left: 0;
+}
 
+@media screen and (max-width: 1024px) {
+  img.bg {
+    left: 50%;
+    margin-left: -512px;
+  }
+}
 .u-section-1 .u-sheet-1 {
   min-height: 100vh;
 }
