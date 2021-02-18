@@ -31546,18 +31546,26 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
 .u-header {
   background-image: none;
-  min-height: 118px;
+  min-height: 101px;
 }
 
 .u-header .u-image-1 {
-  margin: 0 auto 18px 0;
+  margin: 0 auto 1px 0;
 }
 
 .u-header .u-logo-image-1 {
   max-width: 100px;
   max-height: 100px;
 }
+@media (max-width: 1199px) {
+  .u-header {
+    min-height: 101px;
+  }
 
+  .u-header .u-image-1 {
+    margin-bottom: 0;
+  }
+}
 
 
 @media (max-width: 575px) {
